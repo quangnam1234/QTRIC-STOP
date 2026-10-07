@@ -1,0 +1,53 @@
+{
+  "species": [
+    "apis_mellifera",
+    "bombus_lapidarius",
+    "bombus_muscorum",
+    "bombus_terrestris",
+    "vespula_vulgaris"
+  ],
+  "matrix": [
+    [
+      0.0,
+      0.7499999999999999,
+      0.7499999999999999,
+      0.7499999999999999,
+      1.0
+    ],
+    [
+      0.7499999999999999,
+      0.0,
+      0.625,
+      0.625,
+      1.0
+    ],
+    [
+      0.7499999999999999,
+      0.625,
+      0.0,
+      0.625,
+      1.0
+    ],
+    [
+      0.7499999999999999,
+      0.625,
+      0.625,
+      0.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "subject_counts": {
+    "apis_mellifera": 3,
+    "bombus_lapidarius": 3,
+    "bombus_muscorum": 3,
+    "bombus_terrestris": 3,
+    "vespula_vulgaris": 3
+  }
+}

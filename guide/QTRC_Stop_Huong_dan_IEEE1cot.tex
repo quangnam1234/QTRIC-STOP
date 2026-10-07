@@ -1,0 +1,258 @@
+\documentclass[12pt,draftclsnofoot,onecolumn]{IEEEtran}
+
+\usepackage[T5]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{url}
+\usepackage{cite}
+\usepackage{microtype}
+\usepackage[a4paper,margin=22mm]{geometry}
+
+\definecolor{darkblue}{RGB}{0,55,110}
+\definecolor{darkred}{RGB}{145,0,0}
+\newcommand{\code}[1]{\url{#1}}
+\newcommand{\gate}[1]{\textbf{Gate #1}}
+\newcommand{\warningtext}[1]{\textcolor{darkred}{\textbf{Lưu ý:} #1}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  frame=single,
+  columns=fullflexible,
+  keepspaces=true,
+  showstringspaces=false
+}
+
+\title{Hướng dẫn chạy mã nguồn QTRC-Stop trên tập dữ liệu Polliradar\\
+\large Giao thức IEEE một cột, kiểm tra theo checkpoint và khôi phục sau gián đoạn}
+\author{Tài liệu kỹ thuật phục vụ thực nghiệm}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Tài liệu này hướng dẫn chạy pipeline QTRC-Stop cho bài toán phân loại sớm năm loài côn trùng thụ phấn từ tín hiệu mmWave amplitude--phase. Mã nguồn thực hiện kiểm kê dữ liệu, phát hiện đoạn micro-Doppler, trích xuất đặc trưng tại bảy thời lượng từ 0,1 đến 2~s, huấn luyện bộ phân loại taxonomic theo subject-disjoint cross-validation, hiệu chỉnh posterior, lựa chọn stopping policy dưới ràng buộc taxonomic gap risk, và xuất các bảng đánh giá. Mỗi recording, inner fold, outer fold, thời lượng và policy grid được lưu độc lập bằng ghi tệp nguyên tử. Khi mất điện, người dùng chạy lại đúng lệnh cũ; các tác vụ đã hoàn thành được bỏ qua.
+\end{abstract}
+
+\begin{IEEEkeywords}
+checkpoint, early classification, micro-Doppler, mmWave radar, Polliradar, risk control, subject-disjoint evaluation.
+\end{IEEEkeywords}
+
+\section{Phạm vi triển khai}
+
+Trong một nút radar đặt tại cửa tổ, lối bay hoặc nhà kính, mỗi côn trùng chỉ xuất hiện trong vùng chiếu trong một khoảng thời gian hữu hạn. Pipeline xử lý một event micro-Doppler đã được detector xác nhận và quyết định tại mỗi prefix: phát nhãn, chờ thêm tín hiệu, hoặc từ chối trong chế độ selective. Dữ liệu nguồn gồm năm loài, 33 cá thể và 167 tệp CSV; mỗi tệp chứa hai cột \code{amplitude} và \code{phase} \cite{antony2026}.
+
+Tập thời lượng quan sát là
+\begin{equation}
+\mathcal{T}=\{0.1,0.2,0.4,0.6,0.8,1.0,2.0\}\;\mathrm{s}.
+\label{eq:durations}
+\end{equation}
+Tập trong \eqref{eq:durations} giữ đúng các thời lượng được đánh giá trong bài báo nguồn, nhờ đó fixed-duration reproduction và adaptive stopping dùng cùng dữ liệu đầu vào.
+
+Mã nguồn sử dụng các nhóm đặc trưng harmonic, phổ, thời gian, band power và MFCC. Phiên bản Python tạo 86 đặc trưng số. Đây là triển khai độc lập theo cùng nhóm đại lượng, không phải bản sao từng hàm của bộ 70 đặc trưng MATLAB trong bài báo gốc.
+
+\section{Cấu trúc gói mã nguồn}
+
+\begin{lstlisting}
+QTRC_Stop_Code_v1/
+|-- configs/               # smoke, pilot, full
+|-- scripts/               # run, resume, status, verify
+|-- src/qtrc_stop/         # signal, feature, model, policy
+|-- tests/                 # unit tests
+|-- guide/                 # file TEX/PDF nay
+|-- outputs/               # ket qua theo run_dir
+|-- pyproject.toml
+|-- requirements.txt
+`-- README_VI.md
+\end{lstlisting}
+
+Ba cấu hình được khóa theo mục đích:
+\begin{itemize}[leftmargin=*]
+\item \code{smoke.yaml}: kiểm tra luồng xử lý, không dùng để báo cáo kết quả khoa học;
+\item \code{pilot.yaml}: kiểm tra xu hướng, baseline, calibration và thời gian chạy;
+\item \code{full.yaml}: LOSO trên toàn bộ 33 subject, dùng cho kết quả chính.
+\end{itemize}
+
+\section{Cài đặt môi trường}
+
+Yêu cầu Python 3.10 trở lên. Các thư viện chính gồm NumPy, Pandas, SciPy, scikit-learn, CatBoost, Joblib, PyYAML và Matplotlib.
+
+\begin{lstlisting}
+cd QTRC_Stop_Code_v1
+python -m venv .venv
+source .venv/bin/activate
+# Windows: .venv\Scripts\activate
+python -m pip install --upgrade pip
+pip install -e . --no-build-isolation
+PYTHONPATH=src pytest -q
+\end{lstlisting}
+
+Kết quả unit test hợp lệ phải là \code{4 passed}. Không chạy mô phỏng chính nếu test feature, checkpoint, taxonomy hoặc stopping bị lỗi. Trên Windows không có Bash, có thể dùng trực tiếp lệnh \code{python -m qtrc_stop.cli run} với các tham số \code{--config}, \code{--dataset} và \code{--run-dir}.
+
+\section{Lệnh chạy}
+
+\subsection{Smoke test}
+
+\begin{lstlisting}
+bash scripts/run_smoke.sh \
+  "/path/Polliradar dataset.zip" \
+  outputs/smoke
+\end{lstlisting}
+
+Smoke test đã được kiểm tra trên gói dữ liệu cung cấp. Pipeline chọn 15 recording từ 15 subject, phát hiện 29 event, tạo 203 prefix row và 86 đặc trưng; CP0--CP8 hoàn tất. Full preflight CP0--CP3 cũng đã được kiểm tra trên 167 recording: detector giữ 1.843 event, tạo 12.901 prefix row, bao phủ đủ 33 subject và không dùng fallback event. Các con số này chỉ xác nhận tích hợp dữ liệu và mã nguồn; chúng không phải kết quả phân loại của bài báo.
+
+\subsection{Pilot và full run}
+
+\begin{lstlisting}
+bash scripts/run_pilot.sh \
+  "/path/Polliradar dataset.zip" \
+  outputs/pilot
+
+bash scripts/run_full.sh \
+  "/path/Polliradar dataset.zip" \
+  outputs/full
+\end{lstlisting}
+
+Full run sử dụng LOSO. Mỗi outer fold giữ toàn bộ recording của một subject làm test; các subject còn lại tạo inner out-of-fold predictions để fit temperature và stopping policy.
+
+\subsection{Chạy một checkpoint}
+
+\begin{lstlisting}
+bash scripts/run_stage.sh cp4 \
+  "/path/Polliradar dataset.zip" \
+  outputs/full \
+  configs/full.yaml
+\end{lstlisting}
+
+Chỉ chạy CP4 khi CP0--CP3 đã hoàn tất và \code{gate_report.json} có \code{"pass": true}. Với \code{full.yaml}, gate yêu cầu đủ 33 subject theo đúng phân bố 11/4/5/6/7 và tỷ lệ fallback bằng 0.
+
+\section{Các checkpoint và điều kiện qua cổng}
+
+\begin{table}[!t]
+\caption{Checkpoint, tệp đầu ra và điều kiện kiểm tra}
+\label{tab:checkpoints}
+\centering
+\small
+\begin{tabularx}{\textwidth}{p{12mm}p{37mm}Y Y}
+\toprule
+CP & Chức năng & Tệp chính & Điều kiện qua cổng \\
+\midrule
+CP0 & Giải nén, kiểm kê, chuẩn hóa nhãn & \code{cp0_inventory/*/inventory.json} & 167 CSV; đủ 5 loài; nhãn \code{bombus_lapidaries} được đổi thành \code{bombus_lapidarius}. \\
+CP1 & Phát hiện event micro-Doppler theo recording & \code{cp1_events/events.csv} & Có event ở cả 5 loài; theo dõi tỷ lệ fallback. \\
+CP2 & Trích xuất feature tại bảy prefix & \code{cp2_features/features.csv.gz} & Mỗi event có đủ bảy thời lượng; không có Inf/NaN đáng kể. \\
+CP3 & Falsification gate trước huấn luyện & \code{cp3_gates/gate_report.json} & \code{pass=true}; đủ subject; complete-event fraction $>0.95$. \\
+CP4 & Inner OOF và outer test prediction & \code{cp4_predictions/outer_*/} & Test subject không xuất hiện trong training; đủ model cho bảy thời lượng. \\
+CP5 & Temperature scaling và policy search & \code{temperatures.json}, \code{policies/*.json} & Policy được chọn chỉ từ OOF subjects; luôn có fallback 2~s. \\
+CP6 & Baseline và kết quả chính & \code{cp6_results/*.csv} & Có fixed, raw/calibrated confidence, two-stage reliability, AAGC-style và QTRC-Stop. \\
+CP7 & Synthetic robustness & \code{cp7_robustness/*.csv} & Chỉ dùng như sensitivity; không suy diễn field robustness. \\
+CP8 & Bảng và hình tổng hợp & \code{cp8_reports/} & \code{verify_run.sh} trả về \code{"ok": true}. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Tín hiệu phức được tạo bởi
+\begin{equation}
+z[m]=a[m]e^{j\phi[m]}=I[m]+jQ[m].
+\label{eq:complex}
+\end{equation}
+Phương trình \eqref{eq:complex} giữ đồng thời biến thiên biên độ và pha trước khi chuẩn hóa và lọc thông cao 50~Hz.
+
+Stopping policy giảm thời lượng trung bình dưới ràng buộc
+\begin{equation}
+\min_{\lambda}\;\mathbb{E}[\tau_{\lambda}]
+\quad \text{s.t.}\quad U_{\delta}(R_{\mathrm{gap}}(\lambda))\leq\epsilon.
+\label{eq:policy}
+\end{equation}
+Phương trình \eqref{eq:policy} chỉ cho phép giảm thời lượng khi cận trên của loss tăng thêm so với classifier 2~s không vượt mức $\epsilon$.
+
+\section{Baseline và phạm vi diễn giải}
+
+CP6 xuất các nhóm sau:
+\begin{enumerate}[leftmargin=*]
+\item \textbf{Fixed-duration}: 0,1; 0,2; 0,4; 0,6; 0,8; 1 và 2~s.
+\item \textbf{Confidence}: posterior thô và temperature-scaled tại bốn ngưỡng.
+\item \textbf{Two-stage reliability}: logistic reliability layer fit trên OOF predictions. Đây là baseline theo cấu trúc hai tầng, không phải tái tạo nguyên bản TEASER.
+\item \textbf{AAGC-style}: confidence-only policy được chọn theo 0--1 gap risk. Đây là wrapper nội bộ để đối chứng, không được ghi là triển khai chính thức của thuật toán ICML.
+\item \textbf{QTRC-Stop}: calibrated posterior, Jensen--Shannon stability, harmonic ratio, harmonic-energy ratio, $F_0$ stability và taxonomic loss.
+\end{enumerate}
+
+Cấu hình mặc định dùng \code{bootstrap_subject} làm cận trên thực nghiệm theo subject. Chuyển sang \code{hoeffding_subject} khi cần cận phân phối-tự-do; do chỉ có 33 subject, cận này có thể chọn fallback 2~s. Không tuyên bố bảo đảm class-conditional cho từng loài từ cấu hình hiện tại.
+
+\section{Khôi phục sau mất điện}
+
+Tất cả tệp lớn được ghi qua tệp tạm rồi đổi tên nguyên tử. Trạng thái được lưu trong \code{state.json}; CP1 và CP2 lưu theo recording; CP4 lưu theo outer fold, inner fold và duration; CP5 lưu grid và policy riêng.
+
+Sau gián đoạn, chạy lại đúng lệnh ban đầu:
+\begin{lstlisting}
+bash scripts/resume_full.sh \
+  "/path/Polliradar dataset.zip" \
+  outputs/full
+\end{lstlisting}
+
+Không xóa các thư mục \code{parts/}, \code{models/}, \code{policy_grids/}, \code{policies/} hoặc \code{state.json}. Lock có PID của tiến trình; lock của tiến trình đã chết được tự động loại bỏ. Nếu tiến trình đang chạy thật, tác vụ thứ hai sẽ dừng để tránh ghi đè.
+
+Cấu hình khoa học được băm. Nếu thay đổi số fold, feature, model hoặc policy grid nhưng dùng lại cùng \code{run_dir}, chương trình sẽ từ chối. Tạo \code{run_dir} mới cho một cấu hình khoa học mới.
+
+\section{Kiểm tra trạng thái và đầu ra}
+
+\begin{lstlisting}
+bash scripts/status.sh outputs/full
+bash scripts/verify_run.sh outputs/full
+\end{lstlisting}
+
+Các tệp cần dùng để viết phần kết quả:
+\begin{itemize}[leftmargin=*]
+\item \code{cp6_results/summary_metrics.csv}: accuracy, macro-F1, balanced accuracy, stopping time, earliness, subject gap và violation rate;
+\item \code{cp6_results/species_metrics.csv}: recall, FNR và mean stopping time theo loài;
+\item \code{cp6_results/calibration_metrics.csv}: ECE, NLL và Brier score trước/sau calibration;
+\item \code{cp6_results/fold_metrics.csv}: kết quả từng outer fold;
+\item \code{cp6_results/event_decisions.csv.gz}: quyết định ở mức event;
+\item \code{cp8_reports/figures/}: fixed-duration curve và risk--earliness curve.
+\end{itemize}
+
+\section{Synthetic robustness}
+
+Sau khi CP0--CP6 hoàn tất, chạy
+\begin{lstlisting}
+bash scripts/run_robustness.sh \
+  "/path/Polliradar dataset.zip" \
+  outputs/full \
+  configs/full.yaml
+\end{lstlisting}
+
+CP7 tái tạo feature từ raw signal sau khi thêm AWGN, phase noise hoặc amplitude scaling, sau đó dùng model, temperature và policy đã khóa. Các kết quả này chỉ cho biết độ nhạy dưới nhiễu tổng hợp. Không dùng chúng để khẳng định khả năng tổng quát sang môi trường tự nhiên, thiết bị khác hoặc khoảng cách khác.
+
+\section{Thứ tự thực nghiệm bắt buộc}
+
+\begin{enumerate}[leftmargin=*]
+\item Chạy unit test và smoke test.
+\item Chạy pilot; kiểm tra fixed-duration trend, confusion pattern, ECE và số policy fallback 2~s.
+\item Khóa seed, event detector, feature set, taxonomic loss và policy grid.
+\item Chạy full LOSO; không điều chỉnh tham số sau khi xem outer-test result.
+\item Chạy ablation hoặc robustness bằng cấu hình mới hoặc CP7 riêng.
+\item Chỉ điền kết quả vào manuscript sau khi \code{verify_run.sh} trả về \code{ok=true} và đủ toàn bộ outer fold.
+\end{enumerate}
+
+\warningtext{Hàng nghìn segment không làm tăng số đơn vị sinh học độc lập. Confidence interval, calibration split và bootstrap phải giữ subject là đơn vị nhóm.}
+
+\section{Kết luận}
+
+Pipeline được thiết kế để tách đóng góp của adaptive stopping khỏi thay đổi backbone. Kết quả chính phải trả lời ba câu hỏi: thời lượng quan sát giảm bao nhiêu; taxonomic gap có vượt mức $\epsilon$ hay không; và worst-class recall có suy giảm hay không. Nếu policy thường xuyên quay về 2~s, đó là kết quả âm hợp lệ, cho thấy dữ liệu hiện tại chưa hỗ trợ dừng sớm dưới mức rủi ro đã chọn.
+
+\begin{thebibliography}{9}
+\bibitem{antony2026}
+L. Antony, C. White, N. Marchetti, I. Donohue, J. C. Stout, and A. Narbudowicz, ``Harnessing mmWave signals and machine learning for noninvasive taxonomic classification of insects,'' \emph{PNAS Nexus}, vol. 5, Art. pgag096, 2026.
+
+\bibitem{ringel2024}
+L. Ringel, R. Cohen, D. Freedman, M. Elad, and Y. Romano, ``Early time classification with accumulated accuracy gap control,'' in \emph{Proc. ICML}, 2024, pp. 42584--42600.
+\end{thebibliography}
+
+\end{document}

@@ -1,0 +1,4 @@
+event_id,recording_id,subject_id,species,path,start_sample,detector_end_sample,detector_harmonic_ratio,detector_f0_hz,fallback_event
+bombus_terrestris__s01__r02__e000,bombus_terrestris__s01__r02,bombus_terrestris__s01,bombus_terrestris,/home/students/Documents/QTRC_Stop_Code_v1/outputs/full/data_cache/raw/Polliradar dataset/bombus_terrestris_1_2.csv,37900,37900,0.3755640857253132,38.46153846153846,False
+bombus_terrestris__s01__r02__e001,bombus_terrestris__s01__r02,bombus_terrestris__s01,bombus_terrestris,/home/students/Documents/QTRC_Stop_Code_v1/outputs/full/data_cache/raw/Polliradar dataset/bombus_terrestris_1_2.csv,51100,51100,0.43547582298377197,35.714285714285715,False
+bombus_terrestris__s01__r02__e002,bombus_terrestris__s01__r02,bombus_terrestris__s01,bombus_terrestris,/home/students/Documents/QTRC_Stop_Code_v1/outputs/full/data_cache/raw/Polliradar dataset/bombus_terrestris_1_2.csv,57600,57600,0.7643332565376779,125.0,False

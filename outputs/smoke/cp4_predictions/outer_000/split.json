@@ -1,0 +1,21 @@
+{
+  "train_subjects": [
+    "apis_mellifera__s01",
+    "apis_mellifera__s04",
+    "bombus_lapidarius__s02",
+    "bombus_lapidarius__s03",
+    "bombus_muscorum__s02",
+    "bombus_muscorum__s03",
+    "bombus_terrestris__s01",
+    "bombus_terrestris__s02",
+    "vespula_vulgaris__s01",
+    "vespula_vulgaris__s03"
+  ],
+  "test_subjects": [
+    "apis_mellifera__s02",
+    "bombus_lapidarius__s05",
+    "bombus_muscorum__s01",
+    "bombus_terrestris__s03",
+    "vespula_vulgaris__s02"
+  ]
+}

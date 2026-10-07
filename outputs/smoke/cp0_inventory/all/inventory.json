@@ -1,0 +1,23 @@
+{
+  "files": 167,
+  "subjects": 33,
+  "species": {
+    "apis_mellifera": 45,
+    "bombus_lapidarius": 23,
+    "bombus_muscorum": 28,
+    "bombus_terrestris": 39,
+    "vespula_vulgaris": 32
+  },
+  "subjects_per_species": {
+    "apis_mellifera": 11,
+    "bombus_lapidarius": 4,
+    "bombus_muscorum": 5,
+    "bombus_terrestris": 6,
+    "vespula_vulgaris": 7
+  },
+  "sample_lengths": {
+    "10001": 15,
+    "60001": 152
+  },
+  "total_samples": 9270167
+}

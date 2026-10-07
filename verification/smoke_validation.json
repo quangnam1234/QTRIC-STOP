@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "unit_tests": "4 passed",
+  "checkpoint_range": "CP0-CP8",
+  "gate_report": {
+    "rows": 203,
+    "events": 29,
+    "subjects": 15,
+    "species": {
+      "apis_mellifera": 3,
+      "bombus_lapidarius": 3,
+      "bombus_muscorum": 3,
+      "bombus_terrestris": 3,
+      "vespula_vulgaris": 3
+    },
+    "nan_fraction": 0.0,
+    "complete_event_fraction": 1.0,
+    "fallback_event_fraction": 0.0,
+    "pass": true,
+    "gate_config": {
+      "min_subjects_total": 15,
+      "min_species": 5,
+      "complete_event_fraction_min": 0.95,
+      "nan_fraction_max": 0.05,
+      "fallback_event_fraction_max": 1.0,
+      "expected_subjects_per_species": null
+    }
+  },
+  "note": "Software smoke validation only; not a scientific performance result."
+}

@@ -1,0 +1,16 @@
+species,subject_num,recording_num,subject_id,recording_id,path,n_samples
+apis_mellifera,1,1,apis_mellifera__s01,apis_mellifera__s01__r01,/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/data_cache/raw/Polliradar dataset/apis_mellifera_1_1.csv,60001
+apis_mellifera,2,1,apis_mellifera__s02,apis_mellifera__s02__r01,/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/data_cache/raw/Polliradar dataset/apis_mellifera_2_1.csv,60001
+apis_mellifera,4,1,apis_mellifera__s04,apis_mellifera__s04__r01,/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/data_cache/raw/Polliradar dataset/apis_mellifera_4_1.csv,60001
+bombus_lapidarius,2,1,bombus_lapidarius__s02,bombus_lapidarius__s02__r01,/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/data_cache/raw/Polliradar dataset/bombus_lapidaries_2_1.csv,60001
+bombus_lapidarius,3,1,bombus_lapidarius__s03,bombus_lapidarius__s03__r01,/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/data_cache/raw/Polliradar dataset/bombus_lapidaries_3_1.csv,60001
+bombus_lapidarius,5,1,bombus_lapidarius__s05,bombus_lapidarius__s05__r01,/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/data_cache/raw/Polliradar dataset/bombus_lapidaries_5_1.csv,60001
+bombus_muscorum,1,5,bombus_muscorum__s01,bombus_muscorum__s01__r05,/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/data_cache/raw/Polliradar dataset/bombus_muscorum_1_5.csv,60001
+bombus_muscorum,2,1,bombus_muscorum__s02,bombus_muscorum__s02__r01,/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/data_cache/raw/Polliradar dataset/bombus_muscorum_2_1.csv,60001
+bombus_muscorum,3,1,bombus_muscorum__s03,bombus_muscorum__s03__r01,/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/data_cache/raw/Polliradar dataset/bombus_muscorum_3_1.csv,60001
+bombus_terrestris,1,1,bombus_terrestris__s01,bombus_terrestris__s01__r01,/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/data_cache/raw/Polliradar dataset/bombus_terrestris_1_1.csv,60001
+bombus_terrestris,2,1,bombus_terrestris__s02,bombus_terrestris__s02__r01,/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/data_cache/raw/Polliradar dataset/bombus_terrestris_2_1.csv,60001
+bombus_terrestris,3,1,bombus_terrestris__s03,bombus_terrestris__s03__r01,/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/data_cache/raw/Polliradar dataset/bombus_terrestris_3_1.csv,10001
+vespula_vulgaris,1,1,vespula_vulgaris__s01,vespula_vulgaris__s01__r01,/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/data_cache/raw/Polliradar dataset/vespula_vulgaris_1_1.csv,10001
+vespula_vulgaris,2,1,vespula_vulgaris__s02,vespula_vulgaris__s02__r01,/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/data_cache/raw/Polliradar dataset/vespula_vulgaris_2_1.csv,60001
+vespula_vulgaris,3,1,vespula_vulgaris__s03,vespula_vulgaris__s03__r01,/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/data_cache/raw/Polliradar dataset/vespula_vulgaris_3_1.csv,60001

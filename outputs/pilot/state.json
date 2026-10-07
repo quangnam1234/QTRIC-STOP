@@ -1,0 +1,1511 @@
+{
+  "created_at": "2026-08-13T09:46:48.673248+00:00",
+  "stages": {
+    "cp0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:50.227446+00:00"
+    },
+    "cp1": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:53.790619+00:00"
+    },
+    "cp2": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:02.470382+00:00"
+    },
+    "cp3": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:02.539281+00:00"
+    },
+    "cp4": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:23.021377+00:00"
+    },
+    "cp5": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:24.480767+00:00"
+    },
+    "cp6": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:31.917548+00:00"
+    },
+    "cp7": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:31.941767+00:00"
+    },
+    "cp8": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:32.099793+00:00"
+    }
+  },
+  "tasks": {
+    "cp1::apis_mellifera__s01__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:50.290328+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/apis_mellifera__s01__r01.csv"
+    },
+    "cp1::apis_mellifera__s01__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:50.348230+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/apis_mellifera__s01__r02.csv"
+    },
+    "cp1::apis_mellifera__s02__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:50.406611+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/apis_mellifera__s02__r01.csv"
+    },
+    "cp1::apis_mellifera__s04__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:50.464466+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/apis_mellifera__s04__r01.csv"
+    },
+    "cp1::apis_mellifera__s04__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:50.523527+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/apis_mellifera__s04__r02.csv"
+    },
+    "cp1::apis_mellifera__s05__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:50.579110+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/apis_mellifera__s05__r01.csv"
+    },
+    "cp1::apis_mellifera__s05__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:50.636033+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/apis_mellifera__s05__r02.csv"
+    },
+    "cp1::apis_mellifera__s06__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:50.691655+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/apis_mellifera__s06__r01.csv"
+    },
+    "cp1::apis_mellifera__s06__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:50.749705+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/apis_mellifera__s06__r02.csv"
+    },
+    "cp1::apis_mellifera__s07__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:50.805895+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/apis_mellifera__s07__r01.csv"
+    },
+    "cp1::apis_mellifera__s07__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:50.864370+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/apis_mellifera__s07__r02.csv"
+    },
+    "cp1::apis_mellifera__s08__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:50.924152+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/apis_mellifera__s08__r01.csv"
+    },
+    "cp1::apis_mellifera__s08__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:50.980825+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/apis_mellifera__s08__r02.csv"
+    },
+    "cp1::apis_mellifera__s09__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:51.042029+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/apis_mellifera__s09__r01.csv"
+    },
+    "cp1::apis_mellifera__s09__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:51.098951+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/apis_mellifera__s09__r02.csv"
+    },
+    "cp1::apis_mellifera__s10__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:51.163781+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/apis_mellifera__s10__r01.csv"
+    },
+    "cp1::apis_mellifera__s10__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:51.222485+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/apis_mellifera__s10__r02.csv"
+    },
+    "cp1::apis_mellifera__s11__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:51.282892+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/apis_mellifera__s11__r01.csv"
+    },
+    "cp1::apis_mellifera__s11__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:51.347448+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/apis_mellifera__s11__r02.csv"
+    },
+    "cp1::apis_mellifera__s12__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:51.404911+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/apis_mellifera__s12__r01.csv"
+    },
+    "cp1::apis_mellifera__s12__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:51.462882+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/apis_mellifera__s12__r02.csv"
+    },
+    "cp1::bombus_lapidarius__s02__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:51.524958+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_lapidarius__s02__r01.csv"
+    },
+    "cp1::bombus_lapidarius__s02__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:51.581787+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_lapidarius__s02__r02.csv"
+    },
+    "cp1::bombus_lapidarius__s03__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:51.642031+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_lapidarius__s03__r01.csv"
+    },
+    "cp1::bombus_lapidarius__s03__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:51.699870+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_lapidarius__s03__r02.csv"
+    },
+    "cp1::bombus_lapidarius__s05__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:51.755603+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_lapidarius__s05__r01.csv"
+    },
+    "cp1::bombus_lapidarius__s05__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:51.807694+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_lapidarius__s05__r02.csv"
+    },
+    "cp1::bombus_lapidarius__s06__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:51.859882+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_lapidarius__s06__r01.csv"
+    },
+    "cp1::bombus_lapidarius__s06__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:51.920155+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_lapidarius__s06__r02.csv"
+    },
+    "cp1::bombus_muscorum__s01__r05": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:51.975305+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_muscorum__s01__r05.csv"
+    },
+    "cp1::bombus_muscorum__s01__r06": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:52.034372+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_muscorum__s01__r06.csv"
+    },
+    "cp1::bombus_muscorum__s02__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:52.093542+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_muscorum__s02__r01.csv"
+    },
+    "cp1::bombus_muscorum__s02__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:52.151817+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_muscorum__s02__r02.csv"
+    },
+    "cp1::bombus_muscorum__s03__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:52.208803+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_muscorum__s03__r01.csv"
+    },
+    "cp1::bombus_muscorum__s03__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:52.265223+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_muscorum__s03__r02.csv"
+    },
+    "cp1::bombus_muscorum__s06__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:52.322846+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_muscorum__s06__r01.csv"
+    },
+    "cp1::bombus_muscorum__s06__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:52.379639+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_muscorum__s06__r02.csv"
+    },
+    "cp1::bombus_muscorum__s07__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:52.434889+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_muscorum__s07__r01.csv"
+    },
+    "cp1::bombus_muscorum__s07__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:52.496054+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_muscorum__s07__r02.csv"
+    },
+    "cp1::bombus_terrestris__s01__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:52.552350+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_terrestris__s01__r01.csv"
+    },
+    "cp1::bombus_terrestris__s01__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:52.609747+00:00",
+      "events": 3,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_terrestris__s01__r02.csv"
+    },
+    "cp1::bombus_terrestris__s02__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:52.664696+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_terrestris__s02__r01.csv"
+    },
+    "cp1::bombus_terrestris__s02__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:52.681807+00:00",
+      "events": 1,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_terrestris__s02__r02.csv"
+    },
+    "cp1::bombus_terrestris__s03__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:52.695202+00:00",
+      "events": 1,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_terrestris__s03__r01.csv"
+    },
+    "cp1::bombus_terrestris__s03__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:52.708864+00:00",
+      "events": 3,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_terrestris__s03__r02.csv"
+    },
+    "cp1::bombus_terrestris__s04__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:52.761177+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_terrestris__s04__r01.csv"
+    },
+    "cp1::bombus_terrestris__s04__r03": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:52.818025+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_terrestris__s04__r03.csv"
+    },
+    "cp1::bombus_terrestris__s05__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:52.874551+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_terrestris__s05__r01.csv"
+    },
+    "cp1::bombus_terrestris__s05__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:52.928768+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_terrestris__s05__r02.csv"
+    },
+    "cp1::bombus_terrestris__s06__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:52.988391+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_terrestris__s06__r01.csv"
+    },
+    "cp1::bombus_terrestris__s06__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:53.048093+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/bombus_terrestris__s06__r02.csv"
+    },
+    "cp1::vespula_vulgaris__s01__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:53.064259+00:00",
+      "events": 3,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/vespula_vulgaris__s01__r01.csv"
+    },
+    "cp1::vespula_vulgaris__s01__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:53.078425+00:00",
+      "events": 2,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/vespula_vulgaris__s01__r02.csv"
+    },
+    "cp1::vespula_vulgaris__s02__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:53.133573+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/vespula_vulgaris__s02__r01.csv"
+    },
+    "cp1::vespula_vulgaris__s02__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:53.190316+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/vespula_vulgaris__s02__r02.csv"
+    },
+    "cp1::vespula_vulgaris__s03__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:53.244450+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/vespula_vulgaris__s03__r01.csv"
+    },
+    "cp1::vespula_vulgaris__s03__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:53.304764+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/vespula_vulgaris__s03__r02.csv"
+    },
+    "cp1::vespula_vulgaris__s04__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:53.369554+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/vespula_vulgaris__s04__r01.csv"
+    },
+    "cp1::vespula_vulgaris__s04__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:53.428824+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/vespula_vulgaris__s04__r02.csv"
+    },
+    "cp1::vespula_vulgaris__s05__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:53.485597+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/vespula_vulgaris__s05__r01.csv"
+    },
+    "cp1::vespula_vulgaris__s05__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:53.544349+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/vespula_vulgaris__s05__r02.csv"
+    },
+    "cp1::vespula_vulgaris__s06__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:53.601965+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/vespula_vulgaris__s06__r01.csv"
+    },
+    "cp1::vespula_vulgaris__s06__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:53.658063+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/vespula_vulgaris__s06__r02.csv"
+    },
+    "cp1::vespula_vulgaris__s07__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:53.712584+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/vespula_vulgaris__s07__r01.csv"
+    },
+    "cp1::vespula_vulgaris__s07__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:53.766160+00:00",
+      "events": 6,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp1_events/parts/vespula_vulgaris__s07__r02.csv"
+    },
+    "cp2::apis_mellifera__s01__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:53.919661+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/apis_mellifera__s01__r01.csv.gz"
+    },
+    "cp2::apis_mellifera__s01__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:54.048982+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/apis_mellifera__s01__r02.csv.gz"
+    },
+    "cp2::apis_mellifera__s02__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:54.182540+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/apis_mellifera__s02__r01.csv.gz"
+    },
+    "cp2::apis_mellifera__s04__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:54.310206+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/apis_mellifera__s04__r01.csv.gz"
+    },
+    "cp2::apis_mellifera__s04__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:54.440559+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/apis_mellifera__s04__r02.csv.gz"
+    },
+    "cp2::apis_mellifera__s05__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:54.573448+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/apis_mellifera__s05__r01.csv.gz"
+    },
+    "cp2::apis_mellifera__s05__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:54.703225+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/apis_mellifera__s05__r02.csv.gz"
+    },
+    "cp2::apis_mellifera__s06__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:54.832057+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/apis_mellifera__s06__r01.csv.gz"
+    },
+    "cp2::apis_mellifera__s06__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:54.963223+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/apis_mellifera__s06__r02.csv.gz"
+    },
+    "cp2::apis_mellifera__s07__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:55.095278+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/apis_mellifera__s07__r01.csv.gz"
+    },
+    "cp2::apis_mellifera__s07__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:55.226373+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/apis_mellifera__s07__r02.csv.gz"
+    },
+    "cp2::apis_mellifera__s08__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:55.355916+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/apis_mellifera__s08__r01.csv.gz"
+    },
+    "cp2::apis_mellifera__s08__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:55.489348+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/apis_mellifera__s08__r02.csv.gz"
+    },
+    "cp2::apis_mellifera__s09__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:55.623333+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/apis_mellifera__s09__r01.csv.gz"
+    },
+    "cp2::apis_mellifera__s09__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:55.751565+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/apis_mellifera__s09__r02.csv.gz"
+    },
+    "cp2::apis_mellifera__s10__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:55.883322+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/apis_mellifera__s10__r01.csv.gz"
+    },
+    "cp2::apis_mellifera__s10__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:56.010460+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/apis_mellifera__s10__r02.csv.gz"
+    },
+    "cp2::apis_mellifera__s11__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:56.138838+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/apis_mellifera__s11__r01.csv.gz"
+    },
+    "cp2::apis_mellifera__s11__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:56.265707+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/apis_mellifera__s11__r02.csv.gz"
+    },
+    "cp2::apis_mellifera__s12__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:56.393850+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/apis_mellifera__s12__r01.csv.gz"
+    },
+    "cp2::apis_mellifera__s12__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:56.523689+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/apis_mellifera__s12__r02.csv.gz"
+    },
+    "cp2::bombus_lapidarius__s02__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:56.660360+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_lapidarius__s02__r01.csv.gz"
+    },
+    "cp2::bombus_lapidarius__s02__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:56.795436+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_lapidarius__s02__r02.csv.gz"
+    },
+    "cp2::bombus_lapidarius__s03__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:56.925056+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_lapidarius__s03__r01.csv.gz"
+    },
+    "cp2::bombus_lapidarius__s03__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:57.057419+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_lapidarius__s03__r02.csv.gz"
+    },
+    "cp2::bombus_lapidarius__s05__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:57.181564+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_lapidarius__s05__r01.csv.gz"
+    },
+    "cp2::bombus_lapidarius__s05__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:57.318939+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_lapidarius__s05__r02.csv.gz"
+    },
+    "cp2::bombus_lapidarius__s06__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:57.444169+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_lapidarius__s06__r01.csv.gz"
+    },
+    "cp2::bombus_lapidarius__s06__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:57.576002+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_lapidarius__s06__r02.csv.gz"
+    },
+    "cp2::bombus_muscorum__s01__r05": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:57.708138+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_muscorum__s01__r05.csv.gz"
+    },
+    "cp2::bombus_muscorum__s01__r06": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:57.846456+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_muscorum__s01__r06.csv.gz"
+    },
+    "cp2::bombus_muscorum__s02__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:57.973456+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_muscorum__s02__r01.csv.gz"
+    },
+    "cp2::bombus_muscorum__s02__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:58.106254+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_muscorum__s02__r02.csv.gz"
+    },
+    "cp2::bombus_muscorum__s03__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:58.239919+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_muscorum__s03__r01.csv.gz"
+    },
+    "cp2::bombus_muscorum__s03__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:58.376777+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_muscorum__s03__r02.csv.gz"
+    },
+    "cp2::bombus_muscorum__s06__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:58.511380+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_muscorum__s06__r01.csv.gz"
+    },
+    "cp2::bombus_muscorum__s06__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:58.641428+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_muscorum__s06__r02.csv.gz"
+    },
+    "cp2::bombus_muscorum__s07__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:58.771763+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_muscorum__s07__r01.csv.gz"
+    },
+    "cp2::bombus_muscorum__s07__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:58.904358+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_muscorum__s07__r02.csv.gz"
+    },
+    "cp2::bombus_terrestris__s01__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:59.034976+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_terrestris__s01__r01.csv.gz"
+    },
+    "cp2::bombus_terrestris__s01__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:59.117727+00:00",
+      "rows": 21,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_terrestris__s01__r02.csv.gz"
+    },
+    "cp2::bombus_terrestris__s02__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:59.241652+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_terrestris__s02__r01.csv.gz"
+    },
+    "cp2::bombus_terrestris__s02__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:59.283206+00:00",
+      "rows": 7,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_terrestris__s02__r02.csv.gz"
+    },
+    "cp2::bombus_terrestris__s03__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:59.309003+00:00",
+      "rows": 7,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_terrestris__s03__r01.csv.gz"
+    },
+    "cp2::bombus_terrestris__s03__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:59.369769+00:00",
+      "rows": 21,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_terrestris__s03__r02.csv.gz"
+    },
+    "cp2::bombus_terrestris__s04__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:59.495960+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_terrestris__s04__r01.csv.gz"
+    },
+    "cp2::bombus_terrestris__s04__r03": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:59.628531+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_terrestris__s04__r03.csv.gz"
+    },
+    "cp2::bombus_terrestris__s05__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:59.763350+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_terrestris__s05__r01.csv.gz"
+    },
+    "cp2::bombus_terrestris__s05__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:59.899582+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_terrestris__s05__r02.csv.gz"
+    },
+    "cp2::bombus_terrestris__s06__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:00.030173+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_terrestris__s06__r01.csv.gz"
+    },
+    "cp2::bombus_terrestris__s06__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:00.164900+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/bombus_terrestris__s06__r02.csv.gz"
+    },
+    "cp2::vespula_vulgaris__s01__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:00.237054+00:00",
+      "rows": 21,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/vespula_vulgaris__s01__r01.csv.gz"
+    },
+    "cp2::vespula_vulgaris__s01__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:00.281884+00:00",
+      "rows": 14,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/vespula_vulgaris__s01__r02.csv.gz"
+    },
+    "cp2::vespula_vulgaris__s02__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:00.403527+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/vespula_vulgaris__s02__r01.csv.gz"
+    },
+    "cp2::vespula_vulgaris__s02__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:00.538920+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/vespula_vulgaris__s02__r02.csv.gz"
+    },
+    "cp2::vespula_vulgaris__s03__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:00.672919+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/vespula_vulgaris__s03__r01.csv.gz"
+    },
+    "cp2::vespula_vulgaris__s03__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:00.809951+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/vespula_vulgaris__s03__r02.csv.gz"
+    },
+    "cp2::vespula_vulgaris__s04__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:00.945306+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/vespula_vulgaris__s04__r01.csv.gz"
+    },
+    "cp2::vespula_vulgaris__s04__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:01.084426+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/vespula_vulgaris__s04__r02.csv.gz"
+    },
+    "cp2::vespula_vulgaris__s05__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:01.204216+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/vespula_vulgaris__s05__r01.csv.gz"
+    },
+    "cp2::vespula_vulgaris__s05__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:01.337841+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/vespula_vulgaris__s05__r02.csv.gz"
+    },
+    "cp2::vespula_vulgaris__s06__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:01.474386+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/vespula_vulgaris__s06__r01.csv.gz"
+    },
+    "cp2::vespula_vulgaris__s06__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:01.601315+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/vespula_vulgaris__s06__r02.csv.gz"
+    },
+    "cp2::vespula_vulgaris__s07__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:01.733386+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/vespula_vulgaris__s07__r01.csv.gz"
+    },
+    "cp2::vespula_vulgaris__s07__r02": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:01.865942+00:00",
+      "rows": 42,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp2_features/parts/vespula_vulgaris__s07__r02.csv.gz"
+    },
+    "cp4::outer0::inner0::t0.1": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:03.284542+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/oof_parts/inner_00_t0.1.csv.gz"
+    },
+    "cp4::outer0::inner0::t0.2": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:04.097918+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/oof_parts/inner_00_t0.2.csv.gz"
+    },
+    "cp4::outer0::inner0::t0.4": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:04.847964+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/oof_parts/inner_00_t0.4.csv.gz"
+    },
+    "cp4::outer0::inner0::t0.6": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:05.572076+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/oof_parts/inner_00_t0.6.csv.gz"
+    },
+    "cp4::outer0::inner0::t0.8": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:06.295274+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/oof_parts/inner_00_t0.8.csv.gz"
+    },
+    "cp4::outer0::inner0::t1.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:06.974720+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/oof_parts/inner_00_t1.0.csv.gz"
+    },
+    "cp4::outer0::inner0::t2.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:07.719691+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/oof_parts/inner_00_t2.0.csv.gz"
+    },
+    "cp4::outer0::inner1::t0.1": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:08.277423+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/oof_parts/inner_01_t0.1.csv.gz"
+    },
+    "cp4::outer0::inner1::t0.2": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:08.954649+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/oof_parts/inner_01_t0.2.csv.gz"
+    },
+    "cp4::outer0::inner1::t0.4": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:09.634270+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/oof_parts/inner_01_t0.4.csv.gz"
+    },
+    "cp4::outer0::inner1::t0.6": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:10.350540+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/oof_parts/inner_01_t0.6.csv.gz"
+    },
+    "cp4::outer0::inner1::t0.8": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:11.061267+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/oof_parts/inner_01_t0.8.csv.gz"
+    },
+    "cp4::outer0::inner1::t1.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:11.791405+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/oof_parts/inner_01_t1.0.csv.gz"
+    },
+    "cp4::outer0::inner1::t2.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:12.497643+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/oof_parts/inner_01_t2.0.csv.gz"
+    },
+    "cp4::outer0::inner2::t0.1": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:13.087016+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/oof_parts/inner_02_t0.1.csv.gz"
+    },
+    "cp4::outer0::inner2::t0.2": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:13.769876+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/oof_parts/inner_02_t0.2.csv.gz"
+    },
+    "cp4::outer0::inner2::t0.4": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:14.491351+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/oof_parts/inner_02_t0.4.csv.gz"
+    },
+    "cp4::outer0::inner2::t0.6": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:15.151692+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/oof_parts/inner_02_t0.6.csv.gz"
+    },
+    "cp4::outer0::inner2::t0.8": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:15.876214+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/oof_parts/inner_02_t0.8.csv.gz"
+    },
+    "cp4::outer0::inner2::t1.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:16.603136+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/oof_parts/inner_02_t1.0.csv.gz"
+    },
+    "cp4::outer0::inner2::t2.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:17.333220+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/oof_parts/inner_02_t2.0.csv.gz"
+    },
+    "cp4::outer0::final::t0.1": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:18.054112+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/test_parts/t0.1.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/models/t0.1.joblib"
+    },
+    "cp4::outer0::final::t0.2": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:18.818476+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/test_parts/t0.2.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/models/t0.2.joblib"
+    },
+    "cp4::outer0::final::t0.4": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:19.601932+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/test_parts/t0.4.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/models/t0.4.joblib"
+    },
+    "cp4::outer0::final::t0.6": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:20.422681+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/test_parts/t0.6.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/models/t0.6.joblib"
+    },
+    "cp4::outer0::final::t0.8": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:21.200486+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/test_parts/t0.8.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/models/t0.8.joblib"
+    },
+    "cp4::outer0::final::t1.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:21.974805+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/test_parts/t1.0.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/models/t1.0.joblib"
+    },
+    "cp4::outer0::final::t2.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:22.769750+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/test_parts/t2.0.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/models/t2.0.joblib"
+    },
+    "cp4::outer1::inner0::t0.1": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:23.443579+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/oof_parts/inner_00_t0.1.csv.gz"
+    },
+    "cp4::outer1::inner0::t0.2": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:24.128360+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/oof_parts/inner_00_t0.2.csv.gz"
+    },
+    "cp4::outer1::inner0::t0.4": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:24.795043+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/oof_parts/inner_00_t0.4.csv.gz"
+    },
+    "cp4::outer1::inner0::t0.6": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:25.521244+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/oof_parts/inner_00_t0.6.csv.gz"
+    },
+    "cp4::outer1::inner0::t0.8": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:26.241012+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/oof_parts/inner_00_t0.8.csv.gz"
+    },
+    "cp4::outer1::inner0::t1.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:26.936607+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/oof_parts/inner_00_t1.0.csv.gz"
+    },
+    "cp4::outer1::inner0::t2.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:27.590793+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/oof_parts/inner_00_t2.0.csv.gz"
+    },
+    "cp4::outer1::inner1::t0.1": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:28.365718+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/oof_parts/inner_01_t0.1.csv.gz"
+    },
+    "cp4::outer1::inner1::t0.2": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:29.038971+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/oof_parts/inner_01_t0.2.csv.gz"
+    },
+    "cp4::outer1::inner1::t0.4": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:29.762247+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/oof_parts/inner_01_t0.4.csv.gz"
+    },
+    "cp4::outer1::inner1::t0.6": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:30.454084+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/oof_parts/inner_01_t0.6.csv.gz"
+    },
+    "cp4::outer1::inner1::t0.8": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:31.159013+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/oof_parts/inner_01_t0.8.csv.gz"
+    },
+    "cp4::outer1::inner1::t1.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:31.864294+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/oof_parts/inner_01_t1.0.csv.gz"
+    },
+    "cp4::outer1::inner1::t2.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:32.600146+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/oof_parts/inner_01_t2.0.csv.gz"
+    },
+    "cp4::outer1::inner2::t0.1": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:33.220321+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/oof_parts/inner_02_t0.1.csv.gz"
+    },
+    "cp4::outer1::inner2::t0.2": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:33.899462+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/oof_parts/inner_02_t0.2.csv.gz"
+    },
+    "cp4::outer1::inner2::t0.4": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:34.628516+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/oof_parts/inner_02_t0.4.csv.gz"
+    },
+    "cp4::outer1::inner2::t0.6": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:35.406739+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/oof_parts/inner_02_t0.6.csv.gz"
+    },
+    "cp4::outer1::inner2::t0.8": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:36.099037+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/oof_parts/inner_02_t0.8.csv.gz"
+    },
+    "cp4::outer1::inner2::t1.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:36.827039+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/oof_parts/inner_02_t1.0.csv.gz"
+    },
+    "cp4::outer1::inner2::t2.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:37.535815+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/oof_parts/inner_02_t2.0.csv.gz"
+    },
+    "cp4::outer1::final::t0.1": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:38.231880+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/test_parts/t0.1.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/models/t0.1.joblib"
+    },
+    "cp4::outer1::final::t0.2": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:38.961584+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/test_parts/t0.2.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/models/t0.2.joblib"
+    },
+    "cp4::outer1::final::t0.4": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:39.750478+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/test_parts/t0.4.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/models/t0.4.joblib"
+    },
+    "cp4::outer1::final::t0.6": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:40.547344+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/test_parts/t0.6.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/models/t0.6.joblib"
+    },
+    "cp4::outer1::final::t0.8": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:41.318256+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/test_parts/t0.8.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/models/t0.8.joblib"
+    },
+    "cp4::outer1::final::t1.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:42.103166+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/test_parts/t1.0.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/models/t1.0.joblib"
+    },
+    "cp4::outer1::final::t2.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:42.882065+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/test_parts/t2.0.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/models/t2.0.joblib"
+    },
+    "cp4::outer2::inner0::t0.1": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:43.541106+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/oof_parts/inner_00_t0.1.csv.gz"
+    },
+    "cp4::outer2::inner0::t0.2": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:44.243920+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/oof_parts/inner_00_t0.2.csv.gz"
+    },
+    "cp4::outer2::inner0::t0.4": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:44.960221+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/oof_parts/inner_00_t0.4.csv.gz"
+    },
+    "cp4::outer2::inner0::t0.6": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:45.637907+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/oof_parts/inner_00_t0.6.csv.gz"
+    },
+    "cp4::outer2::inner0::t0.8": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:46.335662+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/oof_parts/inner_00_t0.8.csv.gz"
+    },
+    "cp4::outer2::inner0::t1.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:47.083711+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/oof_parts/inner_00_t1.0.csv.gz"
+    },
+    "cp4::outer2::inner0::t2.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:47.816568+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/oof_parts/inner_00_t2.0.csv.gz"
+    },
+    "cp4::outer2::inner1::t0.1": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:48.419131+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/oof_parts/inner_01_t0.1.csv.gz"
+    },
+    "cp4::outer2::inner1::t0.2": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:49.123643+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/oof_parts/inner_01_t0.2.csv.gz"
+    },
+    "cp4::outer2::inner1::t0.4": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:49.800920+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/oof_parts/inner_01_t0.4.csv.gz"
+    },
+    "cp4::outer2::inner1::t0.6": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:50.514362+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/oof_parts/inner_01_t0.6.csv.gz"
+    },
+    "cp4::outer2::inner1::t0.8": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:51.252218+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/oof_parts/inner_01_t0.8.csv.gz"
+    },
+    "cp4::outer2::inner1::t1.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:52.011679+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/oof_parts/inner_01_t1.0.csv.gz"
+    },
+    "cp4::outer2::inner1::t2.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:52.736309+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/oof_parts/inner_01_t2.0.csv.gz"
+    },
+    "cp4::outer2::inner2::t0.1": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:53.326067+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/oof_parts/inner_02_t0.1.csv.gz"
+    },
+    "cp4::outer2::inner2::t0.2": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:54.029595+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/oof_parts/inner_02_t0.2.csv.gz"
+    },
+    "cp4::outer2::inner2::t0.4": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:54.878404+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/oof_parts/inner_02_t0.4.csv.gz"
+    },
+    "cp4::outer2::inner2::t0.6": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:55.540726+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/oof_parts/inner_02_t0.6.csv.gz"
+    },
+    "cp4::outer2::inner2::t0.8": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:56.216442+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/oof_parts/inner_02_t0.8.csv.gz"
+    },
+    "cp4::outer2::inner2::t1.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:56.874417+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/oof_parts/inner_02_t1.0.csv.gz"
+    },
+    "cp4::outer2::inner2::t2.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:57.609280+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/oof_parts/inner_02_t2.0.csv.gz"
+    },
+    "cp4::outer2::final::t0.1": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:58.320815+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/test_parts/t0.1.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/models/t0.1.joblib"
+    },
+    "cp4::outer2::final::t0.2": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:59.041695+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/test_parts/t0.2.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/models/t0.2.joblib"
+    },
+    "cp4::outer2::final::t0.4": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:47:59.778427+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/test_parts/t0.4.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/models/t0.4.joblib"
+    },
+    "cp4::outer2::final::t0.6": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:00.610521+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/test_parts/t0.6.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/models/t0.6.joblib"
+    },
+    "cp4::outer2::final::t0.8": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:01.405480+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/test_parts/t0.8.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/models/t0.8.joblib"
+    },
+    "cp4::outer2::final::t1.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:02.186117+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/test_parts/t1.0.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/models/t1.0.joblib"
+    },
+    "cp4::outer2::final::t2.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:02.990650+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/test_parts/t2.0.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/models/t2.0.joblib"
+    },
+    "cp4::outer3::inner0::t0.1": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:03.665557+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/oof_parts/inner_00_t0.1.csv.gz"
+    },
+    "cp4::outer3::inner0::t0.2": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:04.386410+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/oof_parts/inner_00_t0.2.csv.gz"
+    },
+    "cp4::outer3::inner0::t0.4": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:05.033349+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/oof_parts/inner_00_t0.4.csv.gz"
+    },
+    "cp4::outer3::inner0::t0.6": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:05.757117+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/oof_parts/inner_00_t0.6.csv.gz"
+    },
+    "cp4::outer3::inner0::t0.8": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:06.506144+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/oof_parts/inner_00_t0.8.csv.gz"
+    },
+    "cp4::outer3::inner0::t1.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:07.250542+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/oof_parts/inner_00_t1.0.csv.gz"
+    },
+    "cp4::outer3::inner0::t2.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:07.927428+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/oof_parts/inner_00_t2.0.csv.gz"
+    },
+    "cp4::outer3::inner1::t0.1": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:08.493185+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/oof_parts/inner_01_t0.1.csv.gz"
+    },
+    "cp4::outer3::inner1::t0.2": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:09.161918+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/oof_parts/inner_01_t0.2.csv.gz"
+    },
+    "cp4::outer3::inner1::t0.4": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:09.876907+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/oof_parts/inner_01_t0.4.csv.gz"
+    },
+    "cp4::outer3::inner1::t0.6": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:10.587582+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/oof_parts/inner_01_t0.6.csv.gz"
+    },
+    "cp4::outer3::inner1::t0.8": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:11.275871+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/oof_parts/inner_01_t0.8.csv.gz"
+    },
+    "cp4::outer3::inner1::t1.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:11.932221+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/oof_parts/inner_01_t1.0.csv.gz"
+    },
+    "cp4::outer3::inner1::t2.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:12.629177+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/oof_parts/inner_01_t2.0.csv.gz"
+    },
+    "cp4::outer3::inner2::t0.1": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:13.295740+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/oof_parts/inner_02_t0.1.csv.gz"
+    },
+    "cp4::outer3::inner2::t0.2": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:13.957385+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/oof_parts/inner_02_t0.2.csv.gz"
+    },
+    "cp4::outer3::inner2::t0.4": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:14.666609+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/oof_parts/inner_02_t0.4.csv.gz"
+    },
+    "cp4::outer3::inner2::t0.6": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:15.411576+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/oof_parts/inner_02_t0.6.csv.gz"
+    },
+    "cp4::outer3::inner2::t0.8": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:16.125455+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/oof_parts/inner_02_t0.8.csv.gz"
+    },
+    "cp4::outer3::inner2::t1.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:16.786944+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/oof_parts/inner_02_t1.0.csv.gz"
+    },
+    "cp4::outer3::inner2::t2.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:17.462283+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/oof_parts/inner_02_t2.0.csv.gz"
+    },
+    "cp4::outer3::final::t0.1": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:18.240713+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/test_parts/t0.1.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/models/t0.1.joblib"
+    },
+    "cp4::outer3::final::t0.2": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:19.170028+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/test_parts/t0.2.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/models/t0.2.joblib"
+    },
+    "cp4::outer3::final::t0.4": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:19.923192+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/test_parts/t0.4.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/models/t0.4.joblib"
+    },
+    "cp4::outer3::final::t0.6": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:20.710923+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/test_parts/t0.6.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/models/t0.6.joblib"
+    },
+    "cp4::outer3::final::t0.8": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:21.447135+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/test_parts/t0.8.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/models/t0.8.joblib"
+    },
+    "cp4::outer3::final::t1.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:22.205616+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/test_parts/t1.0.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/models/t1.0.joblib"
+    },
+    "cp4::outer3::final::t2.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:22.983233+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/test_parts/t2.0.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/models/t2.0.joblib"
+    },
+    "cp5::outer0::temperature": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:23.158619+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/calibrated_test.csv.gz"
+    },
+    "cp5::outer0::grid": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:23.388542+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/policy_grids/qtrc_grid.csv.gz"
+    },
+    "cp5::outer0::eps0.050": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:23.400657+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/policies/epsilon_0.050.json"
+    },
+    "cp5::outer0::eps0.100": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:23.409811+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/policies/epsilon_0.100.json"
+    },
+    "cp5::outer0::eps0.150": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:23.419597+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_000/policies/epsilon_0.150.json"
+    },
+    "cp5::outer1::temperature": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:23.504494+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/calibrated_test.csv.gz"
+    },
+    "cp5::outer1::grid": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:23.727019+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/policy_grids/qtrc_grid.csv.gz"
+    },
+    "cp5::outer1::eps0.050": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:23.748391+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/policies/epsilon_0.050.json"
+    },
+    "cp5::outer1::eps0.100": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:23.757490+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/policies/epsilon_0.100.json"
+    },
+    "cp5::outer1::eps0.150": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:23.766423+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_001/policies/epsilon_0.150.json"
+    },
+    "cp5::outer2::temperature": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:23.851406+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/calibrated_test.csv.gz"
+    },
+    "cp5::outer2::grid": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:24.080344+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/policy_grids/qtrc_grid.csv.gz"
+    },
+    "cp5::outer2::eps0.050": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:24.101137+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/policies/epsilon_0.050.json"
+    },
+    "cp5::outer2::eps0.100": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:24.110038+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/policies/epsilon_0.100.json"
+    },
+    "cp5::outer2::eps0.150": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:24.118286+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_002/policies/epsilon_0.150.json"
+    },
+    "cp5::outer3::temperature": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:24.206744+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/calibrated_test.csv.gz"
+    },
+    "cp5::outer3::grid": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:24.437246+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/policy_grids/qtrc_grid.csv.gz"
+    },
+    "cp5::outer3::eps0.050": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:24.457925+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/policies/epsilon_0.050.json"
+    },
+    "cp5::outer3::eps0.100": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:24.466163+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/policies/epsilon_0.100.json"
+    },
+    "cp5::outer3::eps0.150": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:48:24.475751+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/pilot/cp4_predictions/outer_003/policies/epsilon_0.150.json"
+    }
+  }
+}

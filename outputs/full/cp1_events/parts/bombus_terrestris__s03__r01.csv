@@ -1,0 +1,2 @@
+event_id,recording_id,subject_id,species,path,start_sample,detector_end_sample,detector_harmonic_ratio,detector_f0_hz,fallback_event
+bombus_terrestris__s03__r01__e000,bombus_terrestris__s03__r01,bombus_terrestris__s03,bombus_terrestris,/home/students/Documents/QTRC_Stop_Code_v1/outputs/full/data_cache/raw/Polliradar dataset/bombus_terrestris_3_1.csv,2800,2800,0.9268375107182282,83.33333333333333,False

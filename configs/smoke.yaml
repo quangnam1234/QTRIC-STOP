@@ -1,0 +1,40 @@
+seed: 20260731
+
+dataset:
+  path: "../Polliradar dataset.zip"
+  strict_inventory: true
+  max_subjects_per_species: 3
+  max_recordings_per_subject: 1
+
+gates:
+  min_subjects_total: 15
+  min_species: 5
+  fallback_event_fraction_max: 1.0
+
+events:
+  max_events_per_recording: 2
+  fallback_top_k: 1
+
+model:
+  backend: "extra_trees_hierarchy"
+  extra_trees_estimators: 40
+  min_samples_leaf: 1
+  n_jobs: -1
+
+cv:
+  outer_protocol: "stratified_group_kfold"
+  outer_splits: 3
+  inner_splits: 2
+  max_outer_folds: 1
+
+policy:
+  epsilons: [0.10]
+  delta: 0.10
+  bound_method: "empirical"
+  bootstrap_repeats: 100
+  confidence_grid: [0.60, 0.80, 0.95]
+  js_grid: [0.05, 0.20, 1.0]
+  harmonic_ratio_grid: [0.0, 0.40]
+  harmonic_energy_grid: [0.0, 0.20]
+  f0_delta_grid_hz: [50.0, 1000000.0]
+  persistence_grid: [1, 2]

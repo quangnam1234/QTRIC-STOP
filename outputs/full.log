@@ -1,0 +1,22 @@
+nohup: ignoring input
+2026-08-14 10:31:11,946 | INFO | === CP0 START ===
+2026-08-14 10:31:13,184 | INFO | Selected 167 recordings from 33 subjects
+2026-08-14 10:31:13,188 | INFO | === CP0 DONE ===
+2026-08-14 10:31:13,188 | INFO | === CP1 START ===
+2026-08-14 10:31:20,746 | INFO | Detected 1843 events; fallback fraction 0.000
+2026-08-14 10:31:20,754 | INFO | === CP1 DONE ===
+2026-08-14 10:31:20,754 | INFO | === CP2 START ===
+2026-08-14 10:31:54,724 | INFO | Extracted 12901 prefix rows with 86 numerical features
+2026-08-14 10:31:54,748 | INFO | === CP2 DONE ===
+2026-08-14 10:31:54,748 | INFO | === CP3 START ===
+2026-08-14 10:31:54,905 | INFO | === CP3 DONE ===
+2026-08-14 10:31:54,905 | INFO | === CP4 START ===
+2026-08-14 10:56:33,741 | INFO | === CP4 DONE ===
+2026-08-14 10:56:33,741 | INFO | === CP5 START ===
+2026-08-14 10:57:52,956 | INFO | === CP5 DONE ===
+2026-08-14 10:57:52,956 | INFO | === CP6 START ===
+2026-08-14 11:04:25,128 | INFO | === CP6 DONE ===
+2026-08-14 11:04:25,128 | INFO | === CP7 START ===
+2026-08-14 11:04:25,148 | INFO | === CP7 DONE ===
+2026-08-14 11:04:25,148 | INFO | === CP8 START ===
+2026-08-14 11:04:25,309 | INFO | === CP8 DONE ===

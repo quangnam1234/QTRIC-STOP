@@ -1,0 +1,350 @@
+{
+  "created_at": "2026-08-13T09:45:56.539597+00:00",
+  "stages": {
+    "cp0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:58.146843+00:00"
+    },
+    "cp1": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:58.936822+00:00"
+    },
+    "cp2": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:59.846000+00:00"
+    },
+    "cp3": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:59.869421+00:00"
+    },
+    "cp4": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:04.034367+00:00"
+    },
+    "cp5": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:04.131486+00:00"
+    },
+    "cp6": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:04.423816+00:00"
+    },
+    "cp7": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:04.436486+00:00"
+    },
+    "cp8": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:04.606001+00:00"
+    }
+  },
+  "tasks": {
+    "cp1::apis_mellifera__s01__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:58.210215+00:00",
+      "events": 2,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp1_events/parts/apis_mellifera__s01__r01.csv"
+    },
+    "cp1::apis_mellifera__s02__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:58.270294+00:00",
+      "events": 2,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp1_events/parts/apis_mellifera__s02__r01.csv"
+    },
+    "cp1::apis_mellifera__s04__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:58.329336+00:00",
+      "events": 2,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp1_events/parts/apis_mellifera__s04__r01.csv"
+    },
+    "cp1::bombus_lapidarius__s02__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:58.382014+00:00",
+      "events": 2,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp1_events/parts/bombus_lapidarius__s02__r01.csv"
+    },
+    "cp1::bombus_lapidarius__s03__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:58.435109+00:00",
+      "events": 2,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp1_events/parts/bombus_lapidarius__s03__r01.csv"
+    },
+    "cp1::bombus_lapidarius__s05__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:58.489779+00:00",
+      "events": 2,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp1_events/parts/bombus_lapidarius__s05__r01.csv"
+    },
+    "cp1::bombus_muscorum__s01__r05": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:58.547799+00:00",
+      "events": 2,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp1_events/parts/bombus_muscorum__s01__r05.csv"
+    },
+    "cp1::bombus_muscorum__s02__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:58.599443+00:00",
+      "events": 2,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp1_events/parts/bombus_muscorum__s02__r01.csv"
+    },
+    "cp1::bombus_muscorum__s03__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:58.658881+00:00",
+      "events": 2,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp1_events/parts/bombus_muscorum__s03__r01.csv"
+    },
+    "cp1::bombus_terrestris__s01__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:58.722192+00:00",
+      "events": 2,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp1_events/parts/bombus_terrestris__s01__r01.csv"
+    },
+    "cp1::bombus_terrestris__s02__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:58.778193+00:00",
+      "events": 2,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp1_events/parts/bombus_terrestris__s02__r01.csv"
+    },
+    "cp1::bombus_terrestris__s03__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:58.796494+00:00",
+      "events": 1,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp1_events/parts/bombus_terrestris__s03__r01.csv"
+    },
+    "cp1::vespula_vulgaris__s01__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:58.811677+00:00",
+      "events": 2,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp1_events/parts/vespula_vulgaris__s01__r01.csv"
+    },
+    "cp1::vespula_vulgaris__s02__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:58.869857+00:00",
+      "events": 2,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp1_events/parts/vespula_vulgaris__s02__r01.csv"
+    },
+    "cp1::vespula_vulgaris__s03__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:58.925015+00:00",
+      "events": 2,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp1_events/parts/vespula_vulgaris__s03__r01.csv"
+    },
+    "cp2::apis_mellifera__s01__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:58.999219+00:00",
+      "rows": 14,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp2_features/parts/apis_mellifera__s01__r01.csv.gz"
+    },
+    "cp2::apis_mellifera__s02__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:59.059486+00:00",
+      "rows": 14,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp2_features/parts/apis_mellifera__s02__r01.csv.gz"
+    },
+    "cp2::apis_mellifera__s04__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:59.116168+00:00",
+      "rows": 14,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp2_features/parts/apis_mellifera__s04__r01.csv.gz"
+    },
+    "cp2::bombus_lapidarius__s02__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:59.172136+00:00",
+      "rows": 14,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp2_features/parts/bombus_lapidarius__s02__r01.csv.gz"
+    },
+    "cp2::bombus_lapidarius__s03__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:59.232087+00:00",
+      "rows": 14,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp2_features/parts/bombus_lapidarius__s03__r01.csv.gz"
+    },
+    "cp2::bombus_lapidarius__s05__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:59.298157+00:00",
+      "rows": 14,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp2_features/parts/bombus_lapidarius__s05__r01.csv.gz"
+    },
+    "cp2::bombus_muscorum__s01__r05": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:59.356294+00:00",
+      "rows": 14,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp2_features/parts/bombus_muscorum__s01__r05.csv.gz"
+    },
+    "cp2::bombus_muscorum__s02__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:59.418316+00:00",
+      "rows": 14,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp2_features/parts/bombus_muscorum__s02__r01.csv.gz"
+    },
+    "cp2::bombus_muscorum__s03__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:59.476825+00:00",
+      "rows": 14,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp2_features/parts/bombus_muscorum__s03__r01.csv.gz"
+    },
+    "cp2::bombus_terrestris__s01__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:59.535874+00:00",
+      "rows": 14,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp2_features/parts/bombus_terrestris__s01__r01.csv.gz"
+    },
+    "cp2::bombus_terrestris__s02__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:59.597527+00:00",
+      "rows": 14,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp2_features/parts/bombus_terrestris__s02__r01.csv.gz"
+    },
+    "cp2::bombus_terrestris__s03__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:59.625218+00:00",
+      "rows": 7,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp2_features/parts/bombus_terrestris__s03__r01.csv.gz"
+    },
+    "cp2::vespula_vulgaris__s01__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:59.666107+00:00",
+      "rows": 14,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp2_features/parts/vespula_vulgaris__s01__r01.csv.gz"
+    },
+    "cp2::vespula_vulgaris__s02__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:59.722915+00:00",
+      "rows": 14,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp2_features/parts/vespula_vulgaris__s02__r01.csv.gz"
+    },
+    "cp2::vespula_vulgaris__s03__r01": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:45:59.782024+00:00",
+      "rows": 14,
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp2_features/parts/vespula_vulgaris__s03__r01.csv.gz"
+    },
+    "cp4::outer0::inner0::t0.1": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:00.062605+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/oof_parts/inner_00_t0.1.csv.gz"
+    },
+    "cp4::outer0::inner0::t0.2": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:00.222135+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/oof_parts/inner_00_t0.2.csv.gz"
+    },
+    "cp4::outer0::inner0::t0.4": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:00.426966+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/oof_parts/inner_00_t0.4.csv.gz"
+    },
+    "cp4::outer0::inner0::t0.6": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:00.604742+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/oof_parts/inner_00_t0.6.csv.gz"
+    },
+    "cp4::outer0::inner0::t0.8": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:00.757905+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/oof_parts/inner_00_t0.8.csv.gz"
+    },
+    "cp4::outer0::inner0::t1.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:00.931733+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/oof_parts/inner_00_t1.0.csv.gz"
+    },
+    "cp4::outer0::inner0::t2.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:01.107150+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/oof_parts/inner_00_t2.0.csv.gz"
+    },
+    "cp4::outer0::inner1::t0.1": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:01.316045+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/oof_parts/inner_01_t0.1.csv.gz"
+    },
+    "cp4::outer0::inner1::t0.2": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:01.530790+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/oof_parts/inner_01_t0.2.csv.gz"
+    },
+    "cp4::outer0::inner1::t0.4": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:01.746927+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/oof_parts/inner_01_t0.4.csv.gz"
+    },
+    "cp4::outer0::inner1::t0.6": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:01.918265+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/oof_parts/inner_01_t0.6.csv.gz"
+    },
+    "cp4::outer0::inner1::t0.8": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:02.110876+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/oof_parts/inner_01_t0.8.csv.gz"
+    },
+    "cp4::outer0::inner1::t1.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:02.308732+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/oof_parts/inner_01_t1.0.csv.gz"
+    },
+    "cp4::outer0::inner1::t2.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:02.498936+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/oof_parts/inner_01_t2.0.csv.gz"
+    },
+    "cp4::outer0::final::t0.1": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:02.731674+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/test_parts/t0.1.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/models/t0.1.joblib"
+    },
+    "cp4::outer0::final::t0.2": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:02.961522+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/test_parts/t0.2.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/models/t0.2.joblib"
+    },
+    "cp4::outer0::final::t0.4": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:03.157063+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/test_parts/t0.4.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/models/t0.4.joblib"
+    },
+    "cp4::outer0::final::t0.6": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:03.383784+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/test_parts/t0.6.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/models/t0.6.joblib"
+    },
+    "cp4::outer0::final::t0.8": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:03.557972+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/test_parts/t0.8.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/models/t0.8.joblib"
+    },
+    "cp4::outer0::final::t1.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:03.789569+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/test_parts/t1.0.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/models/t1.0.joblib"
+    },
+    "cp4::outer0::final::t2.0": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:04.010867+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/test_parts/t2.0.csv.gz",
+      "model": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/models/t2.0.joblib"
+    },
+    "cp5::outer0::temperature": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:04.100724+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/calibrated_test.csv.gz"
+    },
+    "cp5::outer0::grid": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:04.116932+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/policy_grids/qtrc_grid.csv.gz"
+    },
+    "cp5::outer0::eps0.100": {
+      "status": "done",
+      "updated_at": "2026-08-13T09:46:04.127522+00:00",
+      "artifact": "/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/cp4_predictions/outer_000/policies/epsilon_0.100.json"
+    }
+  }
+}

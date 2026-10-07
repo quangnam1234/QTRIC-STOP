@@ -1,0 +1,39 @@
+{
+  "train_subjects": [
+    "apis_mellifera__s01",
+    "apis_mellifera__s04",
+    "apis_mellifera__s05",
+    "apis_mellifera__s06",
+    "apis_mellifera__s08",
+    "apis_mellifera__s09",
+    "apis_mellifera__s10",
+    "apis_mellifera__s11",
+    "apis_mellifera__s12",
+    "bombus_lapidarius__s02",
+    "bombus_lapidarius__s05",
+    "bombus_lapidarius__s06",
+    "bombus_muscorum__s02",
+    "bombus_muscorum__s03",
+    "bombus_muscorum__s07",
+    "bombus_terrestris__s01",
+    "bombus_terrestris__s02",
+    "bombus_terrestris__s03",
+    "bombus_terrestris__s04",
+    "vespula_vulgaris__s02",
+    "vespula_vulgaris__s03",
+    "vespula_vulgaris__s04",
+    "vespula_vulgaris__s06",
+    "vespula_vulgaris__s07"
+  ],
+  "test_subjects": [
+    "apis_mellifera__s02",
+    "apis_mellifera__s07",
+    "bombus_lapidarius__s03",
+    "bombus_muscorum__s01",
+    "bombus_muscorum__s06",
+    "bombus_terrestris__s05",
+    "bombus_terrestris__s06",
+    "vespula_vulgaris__s01",
+    "vespula_vulgaris__s05"
+  ]
+}

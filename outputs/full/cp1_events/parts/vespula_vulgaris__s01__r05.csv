@@ -1,0 +1,2 @@
+event_id,recording_id,subject_id,species,path,start_sample,detector_end_sample,detector_harmonic_ratio,detector_f0_hz,fallback_event
+vespula_vulgaris__s01__r05__e000,vespula_vulgaris__s01__r05,vespula_vulgaris__s01,vespula_vulgaris,/home/students/Documents/QTRC_Stop_Code_v1/outputs/full/data_cache/raw/Polliradar dataset/vespula_vulgaris_1_5.csv,7400,7400,0.7372680427500525,66.66666666666667,False

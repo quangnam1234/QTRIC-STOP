@@ -1,0 +1,24 @@
+{
+  "rows": 2569,
+  "events": 367,
+  "subjects": 33,
+  "species": {
+    "apis_mellifera": 11,
+    "bombus_lapidarius": 4,
+    "bombus_muscorum": 5,
+    "bombus_terrestris": 6,
+    "vespula_vulgaris": 7
+  },
+  "nan_fraction": 0.0,
+  "complete_event_fraction": 1.0,
+  "fallback_event_fraction": 0.0,
+  "pass": true,
+  "gate_config": {
+    "min_subjects_total": 25,
+    "min_species": 5,
+    "complete_event_fraction_min": 0.95,
+    "nan_fraction_max": 0.05,
+    "fallback_event_fraction_max": 0.05,
+    "expected_subjects_per_species": null
+  }
+}

@@ -1,0 +1,6 @@
+species,n_subjects,n_events,coverage,recall_covered,recall_total,fnr_total,mean_stop_sec,method,epsilon
+apis_mellifera,1,2,1.0,0.0,0.0,1.0,2.0,qtrc_stop,0.1
+bombus_lapidarius,1,2,1.0,0.0,0.0,1.0,0.1,qtrc_stop,0.1
+bombus_muscorum,1,2,1.0,0.5,0.5,0.5,1.05,qtrc_stop,0.1
+bombus_terrestris,1,1,1.0,0.0,0.0,1.0,2.0,qtrc_stop,0.1
+vespula_vulgaris,1,2,1.0,0.0,0.0,1.0,2.0,qtrc_stop,0.1

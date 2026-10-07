@@ -1,0 +1,94 @@
+Using pip 26.2 from /home/students/Documents/QTRC_Stop_Code_v1/.venv/lib/python3.12/site-packages/pip (python 3.12)
+Obtaining file:///home/students/Documents/QTRC_Stop_Code_v1
+  Checking if build backend supports build_editable: started
+  Running command Checking if build backend supports build_editable
+  Checking if build backend supports build_editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Running command Preparing editable metadata (pyproject.toml)
+  running dist_info
+  creating /tmp/pip-modern-metadata-g69jwdjr/qtrc_stop.egg-info
+  writing /tmp/pip-modern-metadata-g69jwdjr/qtrc_stop.egg-info/PKG-INFO
+  writing dependency_links to /tmp/pip-modern-metadata-g69jwdjr/qtrc_stop.egg-info/dependency_links.txt
+  writing entry points to /tmp/pip-modern-metadata-g69jwdjr/qtrc_stop.egg-info/entry_points.txt
+  writing requirements to /tmp/pip-modern-metadata-g69jwdjr/qtrc_stop.egg-info/requires.txt
+  writing top-level names to /tmp/pip-modern-metadata-g69jwdjr/qtrc_stop.egg-info/top_level.txt
+  writing manifest file '/tmp/pip-modern-metadata-g69jwdjr/qtrc_stop.egg-info/SOURCES.txt'
+  reading manifest file '/tmp/pip-modern-metadata-g69jwdjr/qtrc_stop.egg-info/SOURCES.txt'
+  writing manifest file '/tmp/pip-modern-metadata-g69jwdjr/qtrc_stop.egg-info/SOURCES.txt'
+  creating '/tmp/pip-modern-metadata-g69jwdjr/qtrc_stop-1.0.0.dist-info'
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: numpy>=1.24 in ./.venv/lib/python3.12/site-packages (from qtrc-stop==1.0.0) (2.5.1)
+Requirement already satisfied: pandas>=2.0 in ./.venv/lib/python3.12/site-packages (from qtrc-stop==1.0.0) (3.0.5)
+Requirement already satisfied: scipy>=1.10 in ./.venv/lib/python3.12/site-packages (from qtrc-stop==1.0.0) (1.18.0)
+Requirement already satisfied: scikit-learn>=1.4 in ./.venv/lib/python3.12/site-packages (from qtrc-stop==1.0.0) (1.9.0)
+Requirement already satisfied: joblib>=1.3 in ./.venv/lib/python3.12/site-packages (from qtrc-stop==1.0.0) (1.5.3)
+Requirement already satisfied: PyYAML>=6.0 in ./.venv/lib/python3.12/site-packages (from qtrc-stop==1.0.0) (6.0.3)
+Requirement already satisfied: matplotlib>=3.7 in ./.venv/lib/python3.12/site-packages (from qtrc-stop==1.0.0) (3.11.1)
+Requirement already satisfied: catboost>=1.2 in ./.venv/lib/python3.12/site-packages (from qtrc-stop==1.0.0) (1.2.10)
+Requirement already satisfied: graphviz in ./.venv/lib/python3.12/site-packages (from catboost>=1.2->qtrc-stop==1.0.0) (0.21)
+Requirement already satisfied: plotly in ./.venv/lib/python3.12/site-packages (from catboost>=1.2->qtrc-stop==1.0.0) (6.9.0)
+Requirement already satisfied: six in ./.venv/lib/python3.12/site-packages (from catboost>=1.2->qtrc-stop==1.0.0) (1.17.0)
+Requirement already satisfied: python-dateutil>=2.8.2 in ./.venv/lib/python3.12/site-packages (from pandas>=2.0->qtrc-stop==1.0.0) (2.9.0.post0)
+Requirement already satisfied: contourpy>=1.0.1 in ./.venv/lib/python3.12/site-packages (from matplotlib>=3.7->qtrc-stop==1.0.0) (1.3.3)
+Requirement already satisfied: cycler>=0.10 in ./.venv/lib/python3.12/site-packages (from matplotlib>=3.7->qtrc-stop==1.0.0) (0.12.1)
+Requirement already satisfied: fonttools>=4.28.2 in ./.venv/lib/python3.12/site-packages (from matplotlib>=3.7->qtrc-stop==1.0.0) (4.63.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in ./.venv/lib/python3.12/site-packages (from matplotlib>=3.7->qtrc-stop==1.0.0) (1.5.0)
+Requirement already satisfied: packaging>=20.0 in ./.venv/lib/python3.12/site-packages (from matplotlib>=3.7->qtrc-stop==1.0.0) (26.2)
+Requirement already satisfied: pillow>=9 in ./.venv/lib/python3.12/site-packages (from matplotlib>=3.7->qtrc-stop==1.0.0) (12.3.0)
+Requirement already satisfied: pyparsing>=3 in ./.venv/lib/python3.12/site-packages (from matplotlib>=3.7->qtrc-stop==1.0.0) (3.3.2)
+Requirement already satisfied: narwhals>=2.0.1 in ./.venv/lib/python3.12/site-packages (from scikit-learn>=1.4->qtrc-stop==1.0.0) (2.24.0)
+Requirement already satisfied: threadpoolctl>=3.5.0 in ./.venv/lib/python3.12/site-packages (from scikit-learn>=1.4->qtrc-stop==1.0.0) (3.6.0)
+Building wheels for collected packages: qtrc-stop
+  Building editable for qtrc-stop (pyproject.toml): started
+  Running command Building editable for qtrc-stop (pyproject.toml)
+  running editable_wheel
+  creating /tmp/pip-ephem-wheel-cache-xb9mko2j/wheels/68/87/d2/8abfe69ddf626f1ba79f68e429e217bd44e6a53a87e80a1ed0/tmp66iazvvx/.tmp-mu9v17pv/qtrc_stop.egg-info
+  writing /tmp/pip-ephem-wheel-cache-xb9mko2j/wheels/68/87/d2/8abfe69ddf626f1ba79f68e429e217bd44e6a53a87e80a1ed0/tmp66iazvvx/.tmp-mu9v17pv/qtrc_stop.egg-info/PKG-INFO
+  writing dependency_links to /tmp/pip-ephem-wheel-cache-xb9mko2j/wheels/68/87/d2/8abfe69ddf626f1ba79f68e429e217bd44e6a53a87e80a1ed0/tmp66iazvvx/.tmp-mu9v17pv/qtrc_stop.egg-info/dependency_links.txt
+  writing entry points to /tmp/pip-ephem-wheel-cache-xb9mko2j/wheels/68/87/d2/8abfe69ddf626f1ba79f68e429e217bd44e6a53a87e80a1ed0/tmp66iazvvx/.tmp-mu9v17pv/qtrc_stop.egg-info/entry_points.txt
+  writing requirements to /tmp/pip-ephem-wheel-cache-xb9mko2j/wheels/68/87/d2/8abfe69ddf626f1ba79f68e429e217bd44e6a53a87e80a1ed0/tmp66iazvvx/.tmp-mu9v17pv/qtrc_stop.egg-info/requires.txt
+  writing top-level names to /tmp/pip-ephem-wheel-cache-xb9mko2j/wheels/68/87/d2/8abfe69ddf626f1ba79f68e429e217bd44e6a53a87e80a1ed0/tmp66iazvvx/.tmp-mu9v17pv/qtrc_stop.egg-info/top_level.txt
+  writing manifest file '/tmp/pip-ephem-wheel-cache-xb9mko2j/wheels/68/87/d2/8abfe69ddf626f1ba79f68e429e217bd44e6a53a87e80a1ed0/tmp66iazvvx/.tmp-mu9v17pv/qtrc_stop.egg-info/SOURCES.txt'
+  reading manifest file '/tmp/pip-ephem-wheel-cache-xb9mko2j/wheels/68/87/d2/8abfe69ddf626f1ba79f68e429e217bd44e6a53a87e80a1ed0/tmp66iazvvx/.tmp-mu9v17pv/qtrc_stop.egg-info/SOURCES.txt'
+  writing manifest file '/tmp/pip-ephem-wheel-cache-xb9mko2j/wheels/68/87/d2/8abfe69ddf626f1ba79f68e429e217bd44e6a53a87e80a1ed0/tmp66iazvvx/.tmp-mu9v17pv/qtrc_stop.egg-info/SOURCES.txt'
+  creating '/tmp/pip-ephem-wheel-cache-xb9mko2j/wheels/68/87/d2/8abfe69ddf626f1ba79f68e429e217bd44e6a53a87e80a1ed0/tmp66iazvvx/.tmp-mu9v17pv/qtrc_stop-1.0.0.dist-info'
+  creating /tmp/pip-ephem-wheel-cache-xb9mko2j/wheels/68/87/d2/8abfe69ddf626f1ba79f68e429e217bd44e6a53a87e80a1ed0/tmp66iazvvx/.tmp-mu9v17pv/qtrc_stop-1.0.0.dist-info/WHEEL
+  running build_py
+  running egg_info
+  creating /tmp/tmpdrr3wz_g.build-temp/qtrc_stop.egg-info
+  writing /tmp/tmpdrr3wz_g.build-temp/qtrc_stop.egg-info/PKG-INFO
+  writing dependency_links to /tmp/tmpdrr3wz_g.build-temp/qtrc_stop.egg-info/dependency_links.txt
+  writing entry points to /tmp/tmpdrr3wz_g.build-temp/qtrc_stop.egg-info/entry_points.txt
+  writing requirements to /tmp/tmpdrr3wz_g.build-temp/qtrc_stop.egg-info/requires.txt
+  writing top-level names to /tmp/tmpdrr3wz_g.build-temp/qtrc_stop.egg-info/top_level.txt
+  writing manifest file '/tmp/tmpdrr3wz_g.build-temp/qtrc_stop.egg-info/SOURCES.txt'
+  reading manifest file '/tmp/tmpdrr3wz_g.build-temp/qtrc_stop.egg-info/SOURCES.txt'
+  writing manifest file '/tmp/tmpdrr3wz_g.build-temp/qtrc_stop.egg-info/SOURCES.txt'
+
+          Editable install will be performed using .pth file to extend `sys.path` with:
+          ['src']
+
+  Options like `package-data`, `include/exclude-package-data` or
+  `packages.find.exclude/include` may have no effect.
+
+  adding '__editable__.qtrc_stop-1.0.0.pth'
+  creating '/tmp/pip-ephem-wheel-cache-xb9mko2j/wheels/68/87/d2/8abfe69ddf626f1ba79f68e429e217bd44e6a53a87e80a1ed0/tmp66iazvvx/.tmp-mu9v17pv/qtrc_stop-1.0.0-0.editable-py3-none-any.whl' and adding '/tmp/tmpkscbnau3qtrc_stop-1.0.0-0.editable-py3-none-any.whl' to it
+  adding 'qtrc_stop-1.0.0.dist-info/METADATA'
+  adding 'qtrc_stop-1.0.0.dist-info/WHEEL'
+  adding 'qtrc_stop-1.0.0.dist-info/entry_points.txt'
+  adding 'qtrc_stop-1.0.0.dist-info/top_level.txt'
+  adding 'qtrc_stop-1.0.0.dist-info/RECORD'
+  Building editable for qtrc-stop (pyproject.toml): finished with status 'done'
+  Created wheel for qtrc-stop: filename=qtrc_stop-1.0.0-0.editable-py3-none-any.whl size=1628 sha256=991ba3c2bca21804424c8efbfd3b9340dcc3e114e00b160f2d40de334988de09
+  Stored in directory: /tmp/pip-ephem-wheel-cache-xb9mko2j/wheels/68/87/d2/8abfe69ddf626f1ba79f68e429e217bd44e6a53a87e80a1ed0
+Successfully built qtrc-stop
+Installing collected packages: qtrc-stop
+  Attempting uninstall: qtrc-stop
+    Found existing installation: qtrc-stop 1.0.0
+    Uninstalling qtrc-stop-1.0.0:
+      Removing file or directory /home/students/Documents/QTRC_Stop_Code_v1/.venv/bin/qtrc-stop
+      Removing file or directory /home/students/Documents/QTRC_Stop_Code_v1/.venv/lib/python3.12/site-packages/__editable__.qtrc_stop-1.0.0.pth
+      Removing file or directory /home/students/Documents/QTRC_Stop_Code_v1/.venv/lib/python3.12/site-packages/qtrc_stop-1.0.0.dist-info/
+      Successfully uninstalled qtrc-stop-1.0.0
+  changing mode of /home/students/Documents/QTRC_Stop_Code_v1/.venv/bin/qtrc-stop to 775
+Successfully installed qtrc-stop-1.0.0

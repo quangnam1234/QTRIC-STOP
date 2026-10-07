@@ -1,0 +1,3 @@
+event_id,recording_id,subject_id,species,path,start_sample,detector_end_sample,detector_harmonic_ratio,detector_f0_hz,fallback_event
+vespula_vulgaris__s02__r01__e000,vespula_vulgaris__s02__r01,vespula_vulgaris__s02,vespula_vulgaris,/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/data_cache/raw/Polliradar dataset/vespula_vulgaris_2_1.csv,40600,40600,0.6204397411617318,45.45454545454545,False
+vespula_vulgaris__s02__r01__e001,vespula_vulgaris__s02__r01,vespula_vulgaris__s02,vespula_vulgaris,/home/students/Documents/QTRC_Stop_Code_v1/outputs/smoke/data_cache/raw/Polliradar dataset/vespula_vulgaris_2_1.csv,48200,48200,0.600552653338683,47.61904761904762,False

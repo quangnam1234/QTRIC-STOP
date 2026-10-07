@@ -1,0 +1,13 @@
+{
+  "confidence": 0.6,
+  "js_max": 0.05,
+  "harmonic_ratio_min": 0.0,
+  "harmonic_energy_min": 0.0,
+  "f0_delta_max_hz": 20.0,
+  "persistence": 1,
+  "epsilon": 0.02,
+  "bound_method": "bootstrap_subject",
+  "calibration_mean_gap": 0.014868637567812688,
+  "calibration_ucb_gap": 0.019754700694917308,
+  "calibration_mean_time": 1.4394428969359332
+}

@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "config_fingerprint": "88fda42a7d773157",
+  "rows_in_summary": 24,
+  "required_outputs": [
+    "cp0_inventory/selected/inventory.json",
+    "cp1_events/events.csv",
+    "cp2_features/features.csv.gz",
+    "cp3_gates/gate_report.json",
+    "cp4_predictions/outer_*/test_predictions.csv.gz",
+    "cp5_policies/loss_matrix.json",
+    "cp6_results/summary_metrics.csv",
+    "cp8_reports/figures/fixed_duration_curve.png"
+  ]
+}
